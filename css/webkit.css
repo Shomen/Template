@@ -1,0 +1,25 @@
+/* 
+    Created on : Dec 26, 2014, 7:31:20 PM
+    Author     : Shomen
+*/
+
+
+/* Safari 2-3 */
+html[xmlns*=""] body: #padSlider{ 
+    background-image: url('../img/img5.jpg');
+    background-color: rgba(23, 22, 23,.2);
+}
+
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #padSlider{ 
+    background-image: url('../img/img5.jpg');
+    background-color: rgba(23, 22, 23,.2);
+}
+}
+
+/* Safari 2 - 3.1 */
+html[xmlns*=""]:root #padSlider{ 
+    background-image: url('../img/img5.jpg');
+    background-color: rgba(23, 22, 23,.2);
+}
